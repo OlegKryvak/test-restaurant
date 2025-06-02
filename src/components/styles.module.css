@@ -1,0 +1,139 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+}
+
+.loader {
+  background: url(../assets/spinner.gif) no-repeat center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+}
+
+.languageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  color: #010915;
+  font-weight: 500;
+  margin: 0 0 15px;
+  padding-right: 20px;
+  margin-bottom: 0;
+}
+
+.customSelect {
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid darkgray;
+  padding: 5px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.bg {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  padding: 12px 16px;
+  overflow-x: hidden;
+  gap: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.categoriesContainer {
+  display: flex;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.categoriesContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.category {
+  padding: 6px 16px;
+  border: none;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mealsContainer {
+  padding: 16px;
+}
+
+.mealsContent {
+  margin-bottom: 40px;
+}
+
+.categoryName {
+  margin-top: 15px;
+  color: #010915;
+  font-size: 20px;
+}
+
+.meal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.mealInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mealName {
+  margin: 0;
+  font-size: 14px;
+  color: #010915;
+}
+
+.mealWeight {
+  color: #65758d;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.mealDescription {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.mealPrice {
+  font-size: 12px;
+  color: #010915;
+  margin-top: 20px;
+}
+
+.mealImg {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-left: 16px;
+}
